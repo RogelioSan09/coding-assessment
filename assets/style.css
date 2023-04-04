@@ -1,0 +1,94 @@
+header,
+.center-box {
+    /* Adjusted the height as needed */
+    height: 100%;
+    /* Adjusted the width as needed */
+    width: 65%;
+    /* Set the background color */
+    background-color:  lightsteelblue;
+    /* Add padding to the box */
+    padding: 8px;
+    /* Included padding and border in the box's total width and height */
+    box-sizing: border-box; 
+    border: 8px solid darkblue;
+    /* Centered box horizontally and pushed it to the top */
+    margin: auto;
+}
+
+p,
+.center-box {
+    font-size: 18px;
+    text-align: center;
+    font-family: Comic sans-serif;
+}
+
+
+button {
+    /* Displayed the button as a block element */
+    display: block; 
+    /* Set the height of the button */
+    height: 40px; 
+    /* Set the background color of the button */
+    background-color: lightsteelblue;
+    /* Set the text color of the button */
+    color: black; 
+    /* Font size of the text within the button */
+    font-size: 15px;
+    /* Centered the text of the button */
+    text-align: center;
+    /* Set the line height of the button */
+    line-height: 25px;
+    /* Added margin to the button to center it horizontally and push it to the top */
+    margin: 10px auto 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.answers p{
+    display: block; 
+    height: 50px; 
+    width: 50%;
+    background-color: whitesmoke; 
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px auto 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timer {
+    /* Adjusted the width as needed */
+    width: 15%; 
+    /* Adjusted the height as needed */
+    height: 15%; 
+    /* Set the background color */
+    background-color: lightsteelblue; 
+    /* Float the box to the left */
+    float: left;
+    /* Added padding to the box */
+    padding: 5px;
+    /* Included padding and border in the box's total width and height */
+    box-sizing: border-box;
+    border: 5px dashed darkblue;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.scores {
+    width: 15%;
+    height: 15%;
+    background-color: lightsteelblue;
+    /* Float the box to the right */ 
+    float: right;
+    padding: 5px; 
+    box-sizing: border-box; 
+    border: 5px dashed darkblue;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#time-left {
+    font-size: 25px;
+}
